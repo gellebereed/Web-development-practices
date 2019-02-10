@@ -1,0 +1,13 @@
+body{
+	background: url(https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Nature-Photography-Best-Quality-Wallpapers-1-PIC-WPD0010021.jpg);
+}
+li{
+	color: rgb(51, 204, 51);
+}
+h1{
+	color: gold;
+}
+.important{
+	/*text-decoration-color: rgb(179, 0, 89); */
+	color: rgb(204, 0, 204);
+}

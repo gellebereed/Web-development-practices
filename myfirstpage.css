@@ -1,0 +1,33 @@
+h1{
+	color: Fuchsia;
+	border: 3px dashed rgb(204, 255, 51);
+}
+
+h2{
+	color: #F82F99;
+}
+ol{
+	color: rgb(0, 153, 51);
+}
+ul{
+	color: rgba(50,150,200,0.8);
+}
+body{
+	/*background: #F7CAC9;*/
+	background: url(https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Nature-Photography-Best-Quality-Wallpapers-1-PIC-WPD0010021.jpg);
+}
+*{
+	font-family: cursive;
+}
+ul ul ol ol li{
+	font-family: fantasy;
+}
+h2 + ol{
+	font: small-caps bold 24px/1 sans-serif;
+}
+input[type="submit"]{
+	background: red;
+}
+ol li:nth-of-type(even){
+	border: 1px solid yellow;
+}

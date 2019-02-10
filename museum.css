@@ -1,0 +1,12 @@
+body{
+    background-color: pink;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+img{
+    width: 600px;
+}

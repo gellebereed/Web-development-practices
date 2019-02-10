@@ -1,0 +1,37 @@
+#component{
+	text-align: center;
+	padding-top: 20%;
+	color: white;
+}
+body{
+	background-image: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	font-size: 20px;
+}
+html{
+	height: 100%
+}
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+hr{
+	width: 40%;
+}
+a{
+	color: grey;
+}
+.navbar-block{
+	width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    transition: all 0.15s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+
+}
