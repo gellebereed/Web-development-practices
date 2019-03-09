@@ -1,0 +1,211 @@
+/* utility */
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.bg-dark{
+    background-color: #333;
+    color: white;
+}
+.bg-info{
+    background-color: rgba(137, 212, 25, 0.925);
+    color: white;
+}
+.text-info{
+    color: rgba(132, 177, 64, 0.925);
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+li{
+    display: inline;
+}
+.container{
+    padding: 0 20px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 15px;
+    margin: 20px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgba(134, 224, 7, 0.925);
+}
+.btn:hover{
+    background-color: rgba(86, 139, 10, 0.925);
+    border-radius: 10px;
+}
+/* NavBar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    
+}
+nav h1{
+    font-size: 30px;
+}
+.nav-right{
+   margin: 10px;
+   font-size: 20px;
+    padding: 10px;
+}
+nav li a:hover{
+    background-color: rgba(167, 243, 53, 0.925);
+    border-radius: 10px;
+}
+
+/* Home Case */
+#home{
+    background: url(showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 57vh;
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+    font-size: 30px;
+}
+#home p{
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* What Case */
+#what{
+    height: 250px;
+    text-align: justify;
+}
+#what h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#what .about{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 120px;
+}
+.box i{
+    float: left;
+    font-size: 40px;
+    border-radius: 30px;
+    margin: 20px auto;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgba(189, 248, 100, 0.925);
+}
+.box{
+    width: 33.33%;
+    height: 100px;;
+    margin: 10px;
+    padding: 20px;
+}
+.box h2{
+    margin-bottom: 10px;
+}
+
+/* Who Case */
+#who{
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+}
+#Who .pic{
+    flex: 1;
+    background-image: url(people.jpg);
+    background-position: 40% 100%;
+    background-size: cover;
+    height: 100%;
+}
+#who .about{
+    flex: 1;
+    font-size: 17px;
+    padding: 30px 20px;
+}
+#who .about h2{
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+#who .about p{
+    line-height: 1.5rem;
+}
+#who .about h3{
+    margin: 20px auto;
+}
+#who .about li{
+    display: block;
+    line-height: 1.5rem;
+    border-bottom: 1px solid rgba(134, 133, 133, 0.247);
+    padding-bottom: 20px; 
+}
+#who .about li:last-child{
+    border:none;
+}
+
+/* Clients Case */
+#clients h1{
+    text-align: center;
+    margin: 20px auto;
+}
+#clients .logo{
+    display: flex;
+    justify-content: center
+}
+#clients .logo img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto 20px;
+    margin-bottom: 20px; 
+}
+/* Contact case */
+#contact{
+    display: flex;
+}
+#contact h1{
+    font-size: 1.6rem;
+}
+#contact p{
+    margin: 10px auto;
+}
+#contact .form{
+    width: 40vw;
+    padding: 25px;
+}
+#contact .form label{
+    display: block;
+    margin: 5px 15px;
+    font-size: 1.2rem;
+}
+#contact .form input{
+    height: 30px;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#contact .form textarea{
+    margin-left: 10px;
+}
+#contact .form button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+/* Footer */
+footer{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 30px;
+}

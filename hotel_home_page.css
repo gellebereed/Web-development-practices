@@ -1,0 +1,359 @@
+*{
+    font-family: 'Passion One', cursive
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+    font-family: 'Goblin One', cursive;
+}
+.container{
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+    max-width: 1100px;
+}
+/* Start Up Page */
+#startup{
+    height: 100%;
+    background-image: url(./journey_backg8.jpg);
+    background-size: cover;
+    background-position: 60% 70%;
+    
+}
+nav div{
+    margin: auto 20px;
+
+}
+nav .brand a, nav .brand i{
+    margin: auto;
+    font-size: 1.6rem;
+    color: rgb(187, 219, 41);
+    text-decoration: none; 
+}
+#signup{
+    margin: 12% 30%;
+    color:rgb(219, 142, 41);
+    padding: 20px;
+    text-align: center;
+}
+
+
+#signup .first{
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(48, 48, 155);
+    background-color:rgb(48, 48, 155);
+    margin: auto;
+    margin-bottom: 10px;
+}
+#signup .first a{
+    text-decoration: none;
+    color: white;
+}
+#signup input{
+    width: 50%;
+    border-radius: 24px;
+    padding: 10px;
+    margin:10px;
+    border: 1px solid orange;
+    background-color: rgba(180, 136, 53, 0.842);
+}
+#signup input:focus{
+    width: 70%;
+}
+#signup .third p{
+    margin: 10px;
+    font-size: 20px;
+}
+#signup .third p a{
+    text-decoration: none;
+    color: white;
+}
+#signup .third button{
+    width: 30%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(49, 154, 252, 0.973);
+    color: white;
+    margin: 10px;
+}
+#signup input:focus, #signup .third button{
+    outline: none;
+}
+
+/* Home page */
+#navbar{
+    background-color: black;
+    overflow: auto;
+    
+}
+#navbar h1{
+    float: left;
+    padding: 20px;
+}
+#navbar ul{
+    float: right;
+}
+#navbar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+ul{
+    list-style: none;
+}
+#navbar li{
+    float: left;
+}
+#navbar li a{
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: block;
+}
+#navbar li a:hover, #navbar li a.active{
+    background: #444;
+    color: #df9d5c;
+}
+#showcase{
+    background-image: url(./showcase-4.jpg);
+    background-size: cover;
+    background-position: 80% 90%;
+    height: 600px;
+    color: rgb(20, 20, 19);
+}
+#showcase .showcase-content{
+    text-align: center;
+    padding: 170px;
+    
+}
+#showcase .showcase-content h1{
+    line-height: 1.1em;
+    font-size: 1.7rem;
+}
+#showcase .showcase-content p{
+    color: rgb(243, 241, 239);
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+.btn{
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 24px;
+    color: rgb(217, 223, 213);
+    padding: 10px;
+    background-color: #0e0d0b;
+    font-size: 1.1rem;
+    
+}
+.btn:hover{
+    background-color:rgb(190, 109, 16);
+    color: #fff;
+}
+.text-primary{
+    color: #b9eb32;
+}
+#home-info .info-image{
+    background-image: url(./bedroom.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 400px;
+    min-height: 100%;
+}
+#home-info .bg-dark{
+    border: 1px solid grey;
+    height: 400px;
+    text-align: center;
+    padding: 50px 10px;
+    color: #fff;
+    background-color: #333;
+}
+#home-info .bg-dark .btn-lower{
+    padding-top: 50px;
+}
+#home-info .bg-dark p{
+    line-height: 27px;
+    padding: auto 10px;
+    overflow: hidden;
+}
+
+#icon-home .btn-light{
+    width: 33.3%;
+    height: 300px;
+    text-align: center;
+    float: left;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+#icon-home i{
+    padding-bottom: 10px;
+}
+#icon-home .meals{
+    background-color: rgb(216, 134, 41);
+}
+#sig{
+    background-color: #444;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.clr{
+    clear: both;
+}
+#sig p{
+    padding-top: 20px;
+    font-family: 'Goblin One', cursive;
+}
+/* About page */
+#info-page .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    padding: 30px 0;
+}
+#info-page .info-right img{
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+}
+#info-page .info-left{
+    float: left;
+    width: 50%;
+    text-align: center;
+    min-height: 100%;
+    line-height: 1.5rem;
+    margin-top: 30px;
+}
+#info-page{
+    padding: 20px;
+}
+.bg-wow{
+    background-color: #dbf1ff;
+    color: #474747;
+}
+.display1{
+    font-size: 10px;
+}
+.display2{
+    font-size: 20px;
+}
+.display3{
+    font-size: 30px;
+}
+.display4{
+    font-size: 40px;
+}
+.py{
+    padding: 10px 0;
+}
+/* Reviews */
+.bg-primary{
+    background-color: rgb(187, 142, 59);
+    /* border: 1px solid red; */
+}
+#reviews{
+    background-image: url(./comment_backg3.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    height: 600px;
+    opacity: 0.9;
+}
+#reviews h2{
+    color: rgb(165, 74, 74);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+#reviews .comment img{
+    /* display: block;
+    margin: auto; */
+    width: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 2px;
+    padding: 10px;
+
+}
+#reviews div p{
+    margin: auto;
+    padding: 20px 10px;
+    font-size: 1.0rem;
+    color: #333;
+}
+#reviews .comment{
+    margin: 40px;
+    padding: 10px;
+}
+
+/* Contacct */
+#contact{
+    /* margin: 20px auto; */
+    background-color: white;
+    
+}
+#contact label{
+    display: block;
+    margin: 10px;
+}
+#contact input , #contact textarea{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 1px grey solid;
+}
+#contact input:focus , #contact textarea:focus{
+    outline: rgb(228, 159, 32);
+    background-color: rgb(219, 176, 90);
+}
+#contact button{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#contact button:focus{
+    outline: red;
+}
+#contact p{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+#contact h1{
+    margin-top: 20px;
+}
+#icon-contact .btn-light{
+    width: 33.3%;
+    height: 300px;
+    text-align: center;
+    float: left;
+    padding: 10px 10px;
+    overflow: hidden;
+    background-color: rgb(163, 107, 62);
+    color: white;
+    padding: 30px;
+}
+#icon-contact i{
+    margin: 20px;
+}
+
+
+@media (max-width: 400px){
+    #showcase .showcase-content p{
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,10 @@
+h1{
+    display: inline;
+    padding: 5px;
+}
+input, button{
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+}
